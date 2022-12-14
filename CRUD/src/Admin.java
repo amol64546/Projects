@@ -50,11 +50,8 @@ public class Admin extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         Exit = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         table = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
-        jTextField4 = new javax.swing.JTextField();
         show = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -92,7 +89,7 @@ public class Admin extends javax.swing.JFrame {
                 deleteActionPerformed(evt);
             }
         });
-        Phone.add(delete, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 450, 100, 30));
+        Phone.add(delete, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 100, 30));
         Phone.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 50, 160, -1));
         Phone.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 180, 70, -1));
 
@@ -123,7 +120,7 @@ public class Admin extends javax.swing.JFrame {
                 ExitActionPerformed(evt);
             }
         });
-        Phone.add(Exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 450, 90, 30));
+        Phone.add(Exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 450, 90, 30));
 
         jButton2.setText("Clear");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -131,15 +128,7 @@ public class Admin extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        Phone.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 340, 90, 30));
-
-        jButton3.setText("Select");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        Phone.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 400, 90, 30));
+        Phone.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 340, 100, 30));
 
         getContentPane().add(Phone, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 300, 500));
 
@@ -172,22 +161,13 @@ public class Admin extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 70, 410, 410));
 
-        jButton1.setText("Search");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 20, -1, 30));
-        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, 160, 30));
-
         show.setText("Refresh");
         show.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 showActionPerformed(evt);
             }
         });
-        getContentPane().add(show, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 20, 80, 30));
+        getContentPane().add(show, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 20, 80, 30));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -273,10 +253,6 @@ public class Admin extends javax.swing.JFrame {
         
     }//GEN-LAST:event_formComponentShown
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
-
     private void updateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateActionPerformed
         // TODO add your handling code here:
          
@@ -330,10 +306,6 @@ public class Admin extends javax.swing.JFrame {
               jTextField3.setText("");
               jTextField2.setText(""); 
     }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
 
     private void deleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteActionPerformed
         // TODO add your handling code here:
@@ -400,9 +372,7 @@ public class Admin extends javax.swing.JFrame {
     private javax.swing.JPanel Phone;
     private javax.swing.JButton delete;
     private javax.swing.JButton insert;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -412,7 +382,6 @@ public class Admin extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
     private javax.swing.JButton show;
     private javax.swing.JTable table;
     private javax.swing.JButton update;
