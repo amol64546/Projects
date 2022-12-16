@@ -9,9 +9,6 @@
     <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
       <Point value="[400, 160]"/>
     </Property>
-    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[700, 500]"/>
-    </Property>
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
       <Dimension value="[700, 500]"/>
     </Property>
@@ -109,7 +106,7 @@
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/StudentRegistrationManagementPortal/right.png"/>
+              <Image iconType="3" name="/StudentRegistrationManagementPortal/button_see-result.png"/>
             </Property>
           </Properties>
           <Events>
@@ -117,7 +114,7 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="300" y="160" width="30" height="30"/>
+              <AbsoluteConstraints x="130" y="130" width="120" height="30"/>
             </Constraint>
           </Constraints>
         </Component>
